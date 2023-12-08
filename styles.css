@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+    align-items: center;
+    color: #f9faf8;
+    width: 100%;
+}
+
+h1 {
+    margin-left: 10px;
+}
+
+.header ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+}
+
+li {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color:#e5e7eb;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1f2937;
+    align-items: center;
+    color: #f9faf8;
+    width: 100%;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 10%;
+    width: fit-content;
+    align-self: center;
+    padding: 5px 10px;
+    border: 2px white solid;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.heading {
+    display: flex;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.boxes2 {
+    display: flex;
+}
+
+.border-box {
+    border: 2px blue solid;
+    height: 100px;
+    width: 100px;
+    border-radius: 5%;
+    margin: auto;
+}
+
+.box p {
+    margin: 15px;
+    text-wrap: wrap;
+    text-align: center;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    align-items: center;
+    width: 100%;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.quote {
+    font-style: italic;
+}
+
+.action {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.action-box {
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882f6;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 1%;
+    width: 80%;
+}
+
+.action-text {
+    color: #e5e7eb;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    align-items: center;
+    color: #f9faf8;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: auto;
+    bottom: 0;
+}
+
+
